@@ -1,0 +1,6 @@
+function [c f] = temperature(x) 
+f = 9*x/5 + 32; 
+c = (x - 32) * 5/9; 
+
+you call it like this: 
+[c f]=temperature(-41) 

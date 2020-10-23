@@ -1,0 +1,10 @@
+x=50;
+i=1;
+while(1)
+    x=x-5;
+    if(x<0)
+        break;
+    end
+    s(i)=x;
+    i=i+1;
+end
